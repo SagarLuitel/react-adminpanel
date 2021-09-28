@@ -1,0 +1,27 @@
+.subscriberWidget {
+  flex: 2;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 8px 0px 12px 0px rgba(0, 0, 0, 0.47);
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.subscriberDetail {
+  width: 100%;
+  display: flex;
+}
+
+.subscriberList {
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  margin: 10px;
+  padding-left: 10px;
+  color: rgb(64, 64, 87);
+}
+
+.subsIcon {
+  font-size: 15px !important;
+  margin-right: 5px;
+}

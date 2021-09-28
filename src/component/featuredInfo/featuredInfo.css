@@ -1,0 +1,66 @@
+.featured {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 120px;
+}
+
+.featuredList {
+  box-sizing: border-box;
+  box-shadow: 8px 0px 12px 0px rgba(0, 0, 0, 0.47);
+  border-radius: 10px;
+  border: 2px solid rgb(236, 245, 236);
+  height: 100%;
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.featuredList:hover {
+  height: 125px;
+  width: 210px;
+}
+
+.featuredWrapper {
+  margin-left: 10px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 200px;
+  color: rgb(124, 126, 124);
+}
+
+.dataOverview {
+  display: flex;
+  align-items: center;
+}
+
+.presentFigure {
+  font-size: 20px;
+  font-weight: 600px;
+  color: rgb(24, 26, 24);
+}
+
+.change {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 600px;
+  color: rgb(171, 171, 171);
+  padding: 10px;
+}
+
+.changeOutline {
+  font-size: 12px;
+  font-weight: 200px;
+  color: rgb(124, 126, 124);
+}
+
+.icon.positive {
+  color: green;
+}
+
+.icon.negative {
+  color: red;
+}

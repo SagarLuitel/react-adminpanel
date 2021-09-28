@@ -1,0 +1,12 @@
+.newpost {
+  flex: 4;
+  margin: 20px 20px;
+}
+
+.createBlogInput {
+  margin: 20px 20px;
+}
+
+.createInput {
+  margin: 20px 20px;
+}

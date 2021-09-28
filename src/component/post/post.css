@@ -1,0 +1,97 @@
+.post {
+  flex: 4;
+  margin: 0 30px;
+}
+
+.addpostTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+  margin-bottom: 30px;
+}
+
+.showBlogImage {
+  height: 100px;
+  width: 100px;
+  margin: 10px 10px;
+}
+
+.blogContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.showBlog {
+  flex: 1.5;
+  box-shadow: 8px 0px 12px 0px rgba(0, 0, 0, 0.47);
+  margin-right: 20px;
+  height: 800px;
+  width: 100%;
+}
+
+.editBlog {
+  flex: 2;
+  box-shadow: 8px 0px 12px 0px rgba(0, 0, 0, 0.47);
+  height: 800px;
+  width: 100%;
+}
+
+.showBlogTop {
+  display: flex;
+  align-items: center;
+}
+
+.showBlogButtom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.showOtherDetails {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.showIcons {
+  margin-right: 20px;
+  color: rgb(128, 128, 218);
+}
+
+/* Style for edit section */
+
+.editBlogTitle {
+  margin: 20px 0;
+}
+.editContainer {
+  margin: 20px 10px;
+}
+.currentBlogImg {
+  height: 200px;
+  width: 100%;
+  border-radius: 0%;
+}
+
+.uploadImageIcon {
+  font-size: 60px !important;
+  color: rgb(172, 120, 169);
+}
+
+.editSubmitButton {
+  background-color: #91d393;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  width: 120px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.editInput {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.editInput > input {
+  width: 150px;
+}
